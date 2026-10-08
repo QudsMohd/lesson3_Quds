@@ -6,6 +6,7 @@
 // The checks at the bottom print ✅ when your function is correct.
 
 function toOMR(baisa) {
+  return baisa/1000;
   // your code here
 }
 
