@@ -8,10 +8,12 @@
 // The checks at the bottom print ✅ when your function is correct.
 
 function area(width, height) {
+  return width* height;
   // your code here
 }
 
 function perimeter(width, height) {
+  return 2 * (width + height);
   // your code here
 }
 
