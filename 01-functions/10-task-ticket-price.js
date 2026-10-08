@@ -8,7 +8,18 @@
 //
 // The checks at the bottom print ✅ when your function is correct.
 
+let isStudent = true;
+
 function ticketPrice(age, isStudent) {
+  if (age<6){
+    return 0;
+}
+  else if(age>=60 || isStudent){
+    return 1;
+  }else{
+    return 2;
+}
+  
   // your code here
 }
 
