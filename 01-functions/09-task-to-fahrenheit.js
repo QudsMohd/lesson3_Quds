@@ -6,6 +6,8 @@
 // The checks at the bottom print ✅ when your function is correct.
 
 function toFahrenheit(celsius) {
+  F=celsius*9/5+32;
+  return F;
   // your code here
 }
 
